@@ -1,0 +1,58 @@
+*{
+    font-family: gilroy;
+}
+
+#main{
+    border: 1px solid black;
+    padding: 34px;
+    background-color: rgb(208, 229, 146);
+    border-radius: 20px;
+}
+
+button{
+    width: 75px;
+    height: 90px;
+    border-radius:75%;
+    border-radius: 1px solid rgb(200, 89, 89);
+    background-color:rgb(168, 161, 161);
+}
+
+button:hover{
+    background-color: rgb(181, 138, 93);
+}
+
+body{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#uscore{
+    width: 30%;
+    text-align: center;
+    line-height: 5px;
+    margin-top: 30px;
+}
+
+#cscore{
+    width: 50%;
+    text-align: center;
+    line-height: 5px;
+    margin-top: 30px;
+}
+
+section{
+    display: flex;
+    gap: 60px;
+}
+
+h3{
+    text-align: center;
+    background-color: rgb(134, 241, 141);
+    border: 1px solid rgb(14, 13, 13);
+}
+
+h4{
+    font-size: 20px;
+}
